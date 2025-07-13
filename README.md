@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JS-Fundamentals
 
 This repository contains JavaScript exercises to practice fundamental concepts.
@@ -24,3 +25,6 @@ To run the JavaScript file:
 ## Requirements
 - Node.js
 - No use of `var` (use `const` or `let` instead)
+=======
+# JS-Fundamentals
+>>>>>>> b44bf2fe98e647e56bf21d560b307e89d29a822f
