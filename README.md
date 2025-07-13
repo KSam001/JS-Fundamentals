@@ -10,6 +10,7 @@ This repository contains JavaScript exercises to practice fundamental concepts.
 - `4-concat.js`: A script that prints two arguments in the format "<arg1> is <arg2>", or "undefined is undefined" if no arguments are provided.
 - `5-to_integer.js`: A script that prints "My number: <first argument converted to integer>" if the first argument can be converted to an integer, or "Not a number" otherwise.
 - `6-multi_languages_loop.js`: A script that prints three lines ("C is fun", "Python is cool", "JavaScript is amazing") using an array and a loop with one `console.log` per iteration.
+- `7-multi_c.js`: A script that prints "C is fun" x times, where x is the first argument (an integer), or "Missing number of occurrences" if the argument is invalid, using two `console.log` statements and a loop.
 
 ## Usage
 To run the JavaScript files:
@@ -20,13 +21,15 @@ To run the JavaScript files:
    ```
 3. Run a script, e.g.:
    ```bash
-   node 6-multi_languages_loop.js
+   node 7-multi_c.js 5
    ```
-4. Expected output for 6-multi_languages_loop.js:
+4. Expected output for 7-multi_c.js:
    ```
    C is fun
-   Python is cool
-   JavaScript is amazing
+   C is fun
+   C is fun
+   C is fun
+   C is fun
    ```
 
 ## Requirements
@@ -34,3 +37,4 @@ To run the JavaScript files:
 - No use of `var` (use `const` or `let` instead)
 - For 5-to_integer.js, no use of `try/catch`
 - For 6-multi_languages_loop.js, use an array and a loop, no `if/else`, one `console.log` per iteration
+- For 7-multi_c.js, use two `console.log` statements and a loop
