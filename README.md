@@ -12,6 +12,7 @@ This repository contains JavaScript exercises to practice fundamental concepts.
 - `6-multi_languages_loop.js`: A script that prints three lines ("C is fun", "Python is cool", "JavaScript is amazing") using an array and a loop with one `console.log` per iteration.
 - `7-multi_c.js`: A script that prints "C is fun" x times, where x is the first argument (a non-negative integer), or "Missing number of occurrences" if the argument is invalid, using two `console.log` statements and a loop.
 - `8-square.js`: A script that prints a square of size x using 'X' characters, where x is the first argument (a positive integer), or "Missing size" if the argument is invalid, using a loop.
+- `9-add.js`: A script that prints the sum of two integers passed as arguments using a function `add(a, b)`.
 
 ## Usage
 To run the JavaScript files:
@@ -22,16 +23,11 @@ To run the JavaScript files:
    ```
 3. Run a script, e.g.:
    ```bash
-   node 8-square.js 6
+   node 9-add.js 13 89
    ```
-4. Expected output for 8-square.js:
+4. Expected output for 9-add.js:
    ```
-   XXXXXX
-   XXXXXX
-   XXXXXX
-   XXXXXX
-   XXXXXX
-   XXXXXX
+   102
    ```
 
 ## Requirements
@@ -41,3 +37,4 @@ To run the JavaScript files:
 - For 6-multi_languages_loop.js, use an array and a loop, no `if/else`, one `console.log` per iteration
 - For 7-multi_c.js, use two `console.log` statements and a loop
 - For 8-square.js, use a loop to print a square of 'X' characters
+- For 9-add.js, define a function `add(a, b)`
