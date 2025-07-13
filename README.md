@@ -13,6 +13,7 @@ This repository contains JavaScript exercises to practice fundamental concepts.
 - `7-multi_c.js`: A script that prints "C is fun" x times, where x is the first argument (a non-negative integer), or "Missing number of occurrences" if the argument is invalid, using two `console.log` statements and a loop.
 - `8-square.js`: A script that prints a square of size x using 'X' characters, where x is the first argument (a positive integer), or "Missing size" if the argument is invalid, using a loop.
 - `9-add.js`: A script that prints the sum of two integers passed as arguments using a function `add(a, b)`.
+- `10-factorial.js`: A script that computes and prints the factorial of the first argument (cast as an integer) using a recursive function, with factorial of NaN being 1.
 
 ## Usage
 To run the JavaScript files:
@@ -23,11 +24,11 @@ To run the JavaScript files:
    ```
 3. Run a script, e.g.:
    ```bash
-   node 9-add.js 13 89
+   node 10-factorial.js 3
    ```
-4. Expected output for 9-add.js:
+4. Expected output for 10-factorial.js:
    ```
-   102
+   6
    ```
 
 ## Requirements
@@ -38,3 +39,4 @@ To run the JavaScript files:
 - For 7-multi_c.js, use two `console.log` statements and a loop
 - For 8-square.js, use a loop to print a square of 'X' characters
 - For 9-add.js, define a function `add(a, b)`
+- For 10-factorial.js, use a recursive function to compute the factorial
