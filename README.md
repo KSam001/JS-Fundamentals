@@ -10,7 +10,7 @@ This repository contains JavaScript exercises to practice fundamental concepts.
 - `4-concat.js`: A script that prints two arguments in the format "<arg1> is <arg2>", or "undefined is undefined" if no arguments are provided.
 - `5-to_integer.js`: A script that prints "My number: <first argument converted to integer>" if the first argument can be converted to an integer, or "Not a number" otherwise.
 - `6-multi_languages_loop.js`: A script that prints three lines ("C is fun", "Python is cool", "JavaScript is amazing") using an array and a loop with one `console.log` per iteration.
-- `7-multi_c.js`: A script that prints "C is fun" x times, where x is the first argument (an integer), or "Missing number of occurrences" if the argument is invalid, using two `console.log` statements and a loop.
+- `7-multi_c.js`: A script that prints "C is fun" x times, where x is the first argument (a non-negative integer), or "Missing number of occurrences" if the argument is invalid, using two `console.log` statements and a loop. No output for negative numbers.
 
 ## Usage
 To run the JavaScript files:
