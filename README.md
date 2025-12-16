@@ -40,3 +40,4 @@ To run the JavaScript files:
 - For 8-square.js, use a loop to print a square of 'X' characters
 - For 9-add.js, define a function `add(a, b)`
 - For 10-factorial.js, use a recursive function to compute the factorial
+- Cheers! Happy Coding
